@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"tsc --watch\" \"nodemon --watch dist ./dist/index.js\""
+    "dev": "concurrently \"tsc --watch\" \"nodemon --watch dist ./dist/src/index.js\""
   },
   "keywords": [],
   "author": "",
